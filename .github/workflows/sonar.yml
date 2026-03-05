@@ -32,4 +32,4 @@ jobs:
       - name: SonarCloud Scan
         uses: SonarSource/sonarqube-scan-action@v6
         env:
-          SistemaEnviosSonar: ${{ secrets.SISTEMAENVIOSSONAR }}
+          SONAR_TOKEN: ${{ secrets.SISTEMAENVIOSSONAR }}
