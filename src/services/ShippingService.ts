@@ -1,4 +1,4 @@
-import { IShippingService } from "./IShippingService";
+import { IShippingService } from "./IShippingService.js";
 
 export class ShippingService implements IShippingService {
 
@@ -16,7 +16,7 @@ export class ShippingService implements IShippingService {
       return 20000;
     }
     
-    if(weight >20 && weight <=40){
+    if( weight <=40){
         return 40000;
     }
 

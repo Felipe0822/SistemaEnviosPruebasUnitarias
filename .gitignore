@@ -58,3 +58,6 @@ Thumbs.db
 # Express specific
 # =========================
 public/uploads/
+
+# stryker temp files
+.stryker-tmp
